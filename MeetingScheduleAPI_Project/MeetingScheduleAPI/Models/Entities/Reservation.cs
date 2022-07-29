@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MeetingScheduleAPI.Models.Base;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MeetingScheduleAPI.Model.Entities
 {
-    public class Reservation
+    public class Reservation : IHasId
     {
         public int Id { get; set; }
 

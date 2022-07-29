@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MeetingScheduleAPI.Models.Base;
+using System.ComponentModel.DataAnnotations;
 
 namespace MeetingScheduleAPI.Model.Entities
 {
-    public class Employee
+    public class Employee : IHasId
     {
         public int Id { get; set; }
 

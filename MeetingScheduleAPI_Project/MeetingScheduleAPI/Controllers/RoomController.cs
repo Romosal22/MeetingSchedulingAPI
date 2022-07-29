@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MeetingScheduleAPI.Controllers.Base;
 using MeetingScheduleAPI.Data.Base;
+using MeetingScheduleAPI.Data.Repositories;
 using MeetingScheduleAPI.Model.Entities;
 using MeetingScheduleAPI.Models.Dtos.Room;
 using Microsoft.AspNetCore.Mvc;
@@ -15,7 +16,7 @@ namespace MeetingScheduleAPI.Controllers
     {
         private const string getRoomRouteName = "getRoom";
 
-        public RoomController(IRepository<Room> repository, IMapper mapper) : base(repository, mapper)
+        public RoomController(IRoomRepository repository, IMapper mapper) : base(repository, mapper)
         {
 
         }
@@ -26,36 +27,24 @@ namespace MeetingScheduleAPI.Controllers
             return await Get<RoomDto>();
         }
 
-        /// <summary>
-        /// Permite obtener un curso por su Id.
-        /// </summary>
         [HttpGet("{id:int}", Name = getRoomRouteName)]
         public async Task<ActionResult<RoomDto>> Get(int id)
         {
             return await Get<RoomDto>(id);
         }
 
-        /// <summary>
-        /// Permite crear un curso.
-        /// </summary>
         [HttpPost]
         public async Task<ActionResult<RoomDto>> Post([FromBody] CreateRoomDto createRoomDto)
         {
             return await Post<CreateRoomDto, RoomDto>(createRoomDto, getRoomRouteName);
         }
 
-        /// <summary>
-        /// Permite actualizar un curso.
-        /// </summary>
         [HttpPut]
         public async Task<ActionResult> Put([FromBody] UpdateRoomDto updateRoomDto)
         {
             return await Put<UpdateRoomDto>(updateRoomDto);
         }
 
-        /// <summary>
-        /// Permite eliminar un curso por Id.
-        /// </summary>
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> Delete(int id)
         {

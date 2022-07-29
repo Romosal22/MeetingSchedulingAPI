@@ -2329,11 +2329,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingScheduleAPI\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
+      "projectUniqueName": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingSchedulingAPI\\MeetingScheduleAPI_Project\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
       "projectName": "MeetingScheduleAPI",
-      "projectPath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingScheduleAPI\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
+      "projectPath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingSchedulingAPI\\MeetingScheduleAPI_Project\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
       "packagesPath": "C:\\Users\\rodolfo.moreno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingScheduleAPI\\MeetingScheduleAPI\\obj\\",
+      "outputPath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingSchedulingAPI\\MeetingScheduleAPI_Project\\MeetingScheduleAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

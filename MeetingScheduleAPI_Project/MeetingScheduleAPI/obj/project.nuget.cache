@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xFFItyx3zfcN//VhCV58f1J+prNrypqA+Jcw1Ap2lkg3pPVKDcsgMnNbRh/GERQ5C0MW5XTSZ+aHGbg3p4DAbw==",
+  "dgSpecHash": "OnhcVKthE+2243p9sMQKgfbiK0kOHBO2IQeBAtEX9ut1WbXL+J07FPCCQnUv/OhayvArVQEmLfdw3CfZsu7zNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingScheduleAPI\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
+  "projectFilePath": "C:\\Users\\rodolfo.moreno\\Desktop\\LOCAL\\Tranining Program\\Backend .Net\\MeetingSchedulingAPI\\MeetingScheduleAPI_Project\\MeetingScheduleAPI\\MeetingScheduleAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rodolfo.moreno\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\rodolfo.moreno\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
